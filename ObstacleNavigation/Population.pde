@@ -65,7 +65,7 @@ class Population {
          } else {
            newPlayers[i] = selectPlayer().crossover(selectPlayer());
          }
-         if(gen%5==0) {
+         if(gen%5==0 && !players[bestPlayerNo].reachedFinish) {
            newPlayers[i].addMoves(50);
            minSteps += 50;
          }
