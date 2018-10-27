@@ -2,10 +2,10 @@ class Finish {
    float X, Y, W, H;
    
    Finish() {
-      X = width - 50;
+      X = width - 10;
       Y = height / 2;
-      W = 50;
-      H = 50;
+      W = 20;
+      H = 20;
    }
    
    boolean checkCollision(float x, float y) {
