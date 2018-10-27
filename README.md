@@ -6,7 +6,7 @@ Each player contains their own Neural Net. Each player can see in 8 directions a
 A population of 300 players are created, each with their own Neural Net. Once all of the players in a population die then the fitness of each player is calculated. After the fitnesses are calculated, the population then performs Natural Selection. To do this a new population is created which inherits some of the previous population and mutates them to possibly create improvements. The players that are to be inherited is determined by their fitness, a player with a higher fitness is more likely to be chosen to be inherited.
 
 ## Evolution Strategy
-Some problems with simply creating players that move until they either die or find the finish is that evolution is not able to create mutations that actually improve the next population. To be able to create more useful mutations I used Incremental Learning. To do this each player initially starts out only being able to make 100 moves, and every 5 generations they gain another 50 moves. This allows them to somewhat master the previous moves before moving onto the next set of moves.
+Some problems with simply creating players that move until they either die or find the finish is that evolution is not able to create mutations that actually improve the next population. To be able to create more useful mutations I used Incremental Learning. To do this each player initially starts out only being able to make 100 moves, and every 5 generations they gain another 50 moves. This allows them to better learn a situation before moves before moving onto a new situation.
 
 ![obstaclenavigation-1](https://user-images.githubusercontent.com/36581610/47600686-496b7880-d993-11e8-866e-0defac0e6432.gif)
 
