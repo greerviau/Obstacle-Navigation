@@ -8,6 +8,6 @@ A population of 300 players are created, each with their own brain. Once all of 
 ## Evolution Strategy
 Once a player reaches the finish, the maximum amount of steps players can make is set to however many it took that player to reach it. This ensures that future generations will have to improve the quality of their moves in order to reach the finish in less steps than the previous.
 
+![obstaclenavigation-1](https://user-images.githubusercontent.com/36581610/47609709-da813480-da11-11e8-9241-e7a8fc3d8417.gif)
 
-
-
+![obstaclenavigation-2](https://user-images.githubusercontent.com/36581610/47609712-e3720600-da11-11e8-8d00-272e1c442c52.gif)
