@@ -8,8 +8,6 @@ A population of 300 players are created, each with their own Neural Net. Once al
 ## Evolution Strategy
 Some problems with simply creating players that move until they either die or find the finish is that evolution is not able to create mutations that actually improve the next population. To be able to create more useful mutations I used Incremental Learning. To do this each player initially starts out only being able to make 100 moves, and every 5 generations they gain another 50 moves. This allows to evolve better mutations in smaller increments. Along with this, once a player reaches the finish, the maximum amount of steps players can make is set to however many it took that player to reach it. This ensures that future generations will have to improve the quality of their moves in order to reach the finish in less steps than the previous.
 
-![obstaclenavigation-1](https://user-images.githubusercontent.com/36581610/47600686-496b7880-d993-11e8-866e-0defac0e6432.gif)
 
-![obstaclenavigation-2](https://user-images.githubusercontent.com/36581610/47607221-3389a200-d9eb-11e8-89fb-a9b07a38e714.gif)
 
 
