@@ -65,9 +65,10 @@ class Population {
          } else {
            newPlayers[i] = selectPlayer().crossover(selectPlayer());
          }
-         if(gen%5==0)
+         if(gen%5==0) {
            newPlayers[i].addMoves(50);
            minSteps += 50;
+         }
          newPlayers[i].mutate();
       }
       players = newPlayers.clone();
