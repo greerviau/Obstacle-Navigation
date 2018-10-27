@@ -45,7 +45,7 @@ class Player {
   }
   
   boolean checkCollisions() {
-     if(wall.checkCollision(x+r,y+y) || wall.checkCollision(x-r,y+r) || wall.checkCollision(x+r,y-r) || wall.checkCollision(x-r,y-r))
+     if(wall.checkCollision(x+r,y+r) || wall.checkCollision(x-r,y+r) || wall.checkCollision(x+r,y-r) || wall.checkCollision(x-r,y-r))
         return true;
      if(x-r <= 0 || x+r >= width || y+r >= height || y-r <= 0)
         return true;
