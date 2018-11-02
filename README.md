@@ -1,4 +1,8 @@
 # Obstacle-Navigation
+
+## Download and Run
+To download and run you will need [Processing](https://processing.org/)
+
 ## Player
 Each player contians a brain, which has an array of direction vectors that are used to determine their direction. At first these vectors are all initialized randomly. Over multiple generations the players brains start to become optimized to navigate the wall. 
 
