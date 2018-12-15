@@ -15,6 +15,6 @@ When mutating a players brains, a global mutation rate is used to determine how 
 ## Evolution Strategy
 To ensure that populations cant decrease in quality by possible inheriting the worst players of a previous generation, the best player from the current generation is placed immediately into the next generation and is unmutated. Once a player reaches the finish, the maximum amount of steps any player can make is set to however many it took that player to reach it. This ensures that future generations will have to improve the quality of their moves in order to reach the finish in less steps than the previous generation.
 
-![obstaclenavigation-1](https://user-images.githubusercontent.com/36581610/47609709-da813480-da11-11e8-9241-e7a8fc3d8417.gif)
+![obstaclenavigation-1](https://user-images.githubusercontent.com/36581610/50039518-d29d4400-0001-11e9-9c36-eb782cdb37c9.gif)
 
-![obstaclenavigation-2](https://user-images.githubusercontent.com/36581610/47609712-e3720600-da11-11e8-8d00-272e1c442c52.gif)
+![obstaclenavigation-2](https://user-images.githubusercontent.com/36581610/50039520-d8932500-0001-11e9-9421-2c4b942adcff.gif)
